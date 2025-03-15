@@ -2,9 +2,9 @@
 
 This repository is designed for beginners who want to learn the basics of **HTML, CSS, and JavaScript**. It includes structured lessons, examples, and exercises to help you build solid front-end development skills.  
 
-### [learning1](projects/best-series-learning1/) - project1
-### [learning2](projects/lecture-learning2/) - project2
-### [learning3](projects/blog-learning3/) - project3
+### [learning1](projects/best-series-learning1) - project1
+### [learning2](projects/lecture-learning2) - project2
+### [learning3](projects/blog-learning3) - project3
 
 ## 🚀 What You'll Learn  
 - **HTML**: Structure web pages with semantic elements.  
