@@ -1,0 +1,289 @@
+body
+{
+    margin:0px;
+    background-color: darkslategrey;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-sherif ;
+    font-size: 17px;
+
+}
+h1.logo
+{
+    font-size: 44px;
+    font-weight: 700;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top:50px;
+    margin-bottom: 40px;
+}
+#topnav
+{
+    background-color: rgb(63, 63, 63);
+    text-align: center;
+}
+.menu
+{
+    list-style-type: none;
+    margin:0;
+    padding: 10px;
+    font-size:18px;
+    min-height: 38px;
+    line-height: 200%;
+}
+.menu > li
+{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px dashed #202020;
+}
+.menu > li:first-child
+{
+    border-left: 1px dashed #202020;
+}
+.menu a
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+.menu a:hover
+{
+    color: rgb(138, 162, 182);
+    text-decoration: none;
+}
+.kategorie
+{
+    text-align: center;
+    margin-right: auto;
+    margin-left:auto;
+    padding:0px;
+    width:950px;
+}
+h1
+{
+    font-size: 44px;
+    font-weight: 400;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.autor
+{
+    display: inline-block;
+    margin-top:10px;
+}
+figure
+{
+    margin:8px;
+    padding:0;
+}
+figcaption
+{
+    margin-top: 8px;
+    padding: 0;
+}
+.autor a
+{
+    opacity: 0.9;
+}
+.autor a:hover
+{
+    opacity: 1;
+}
+.wejscia
+{
+    text-align: center;
+    margin-right: auto;
+    margin-left:auto;
+    padding-top:8px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 950px;
+}
+#sekcja1
+{
+    background-color: #202020;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.entry
+{
+    background-color: #3d3d3d;
+    padding: 10px;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.entry-img
+{
+    display: inline-block;
+    margin-left:30px;
+}
+.entry-img img
+{
+    width: 90px;
+    height: 90px;
+}
+.entry-txt
+{
+    display: inline-block;
+    width: 750px;
+    font-size: 18px;
+    margin-left:20px;
+}
+h2
+{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(198, 221, 238);
+}
+.kontakt
+{
+    text-align: center;
+    margin-right: auto;
+    margin-left:auto;
+    padding-top:8px;
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+    width: 950px;
+}
+.przycisk
+{
+    color:rgb(255, 255, 255);
+    padding:15px;
+    background-color: rgb(53, 53, 53);
+    text-decoration: none;
+    font-size: 19px;
+    border-radius: 5px;
+    min-width:300px;
+
+}
+.przycisk:hover
+{
+    background-color: rgb(34, 34, 34);
+}
+.kontakt p
+{
+    margin-bottom:30px;
+}
+.socials
+{
+	width:100%;
+	text-align: center;
+	background-color: #202020;
+}
+
+.socialdivs
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fb
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.fb:hover
+{
+	background-color: #4668b3;
+}
+
+.yt
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.yt:hover
+{
+	background-color: #d94348;
+}
+
+.tw
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.tw:hover
+{
+	background-color: #3095d3;
+}
+
+.gplus
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.gplus:hover
+{
+	background-color: #d95333;
+}
+.info
+{
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+    padding:20px;
+}
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:1050px;
+}
+.west
+{
+    float:left;
+    width:750px;
+    padding:40px;
+    text-align: justify;
+    background-color: #202020;
+}
+.east
+{
+    float:left;
+    background-color: #1d1d1d;
+    width:170px;
+    padding:20px;
+    text-align: left;
+
+}
+.west h1
+{
+    font-size: 32px;
+    font-weight: 400;
+    color:#bcc9e6;
+    margin-bottom: 20px;
+}
+.east ul
+{
+    padding-left: 20px;
+    color:aliceblue;
+}
+.east ul > li
+{
+    margin-bottom:5px;
+}
+a {
+    text-decoration: none;
+    color: rgb(198, 221, 238);
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(78, 91, 102);
+}
