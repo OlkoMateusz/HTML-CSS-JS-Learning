@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Katalog Samochodowy</title>
+	<meta name="description" content="Konfiguracja samochodu">
+	<meta name="keywords" content="Katalog, samochod, katalog Samochodowy, auto, car, kupie">
+	<meta name="author" content="Mortinez Walles">
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="stylesheet" href="f1.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+</head>
+<body>
+    <header>
+        <h1>Wybierz konfiguracje samochodu</h1>
+    </header>
+
+    <main>
+        <article>
+            <form action="order.html" method="post" > 
+            
+            <div class="row">
+                <fieldset>
+                <legend>Rodzaj nadwozia</legend>
+                <div><label><input type="radio" value="1" id="nadwozie" name="nadwozie" checked>Hatchback</label> </div>
+                <div><label><input type="radio" value="2" id="nadwozie" name="nadwozie">Kabriolet</label> </div>
+                <div><label><input type="radio" value="3" id="nadwozie" name="nadwozie">Combi</label></div> 
+                </fieldset>    
+            </div>
+            <div class="select">
+                <label for="silnik"> Rodzaj silnika </label>
+                <select id="silnik">
+                    <option value="w">wysokoprężny</option>
+                    <option selected value="b">benzynowy</option>
+                    <option value="e">elektryczny</option>
+                    <option value="h">hybrydowy</option>
+                </select> 
+            </div>
+            <div class="select">
+                <fieldset>
+                    <legend>Wyposażenie samochodu </legend>
+                    <div class="kol">
+                    <div><label><input type="checkbox" name="wyp[]" value="1" disabled checked>Klimatyzacja</label></div>
+                    <div><label><input type="checkbox" name="wyp[]" value="2" disabled checked>Systemy: ESP i ABS</label></div>
+                    <div><label><input type="checkbox" name="wyp[]" value="3" >Tapicerka skórzana</label></div>
+                    <div><label><input type="checkbox" name="wyp[]" value="4" >Tempomat</label></div>
+                    </div>
+                    <div class="kol">
+                    <div><label><input type="checkbox" name="wyp[]" value="5" >Tylny spojler dachowy</label></div>
+                    <div><label><input type="checkbox" name="wyp[]" value="6" >Radio z bluetooth</label></div>
+                    <div><label><input type="checkbox" name="wyp[]" value="7" disabled checked>Reflektory przeciwmgłowe</label></div>
+                    <div><label><input type="checkbox" name="wyp[]" value="8" >Przyciemniane szyby</label></div>
+                    </div>
+                    <div class="kol">
+                    <div><label><input type="checkbox" name="wyp[]" value="9" >Czujniki parkowania</label></div>
+                    <div><label><input type="checkbox" name="wyp[]" value="10" >Podgrzewane fotele</label></div>
+                    <div><label><input type="checkbox" name="wyp[]" value="11" >Składane lusterka</label></div>
+                    <div><label><input type="checkbox" name="wyp[]" value="12"  disabled checked>Światła do jazdy dziennej</label></div>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="multi">
+                <label for="choinka"> Choinka zapachowa </label>
+                <div style="margin-top:10px;">
+                    <select id="choinka" name="choinka" multiple>
+                    <option value="w">kokosowa</option>
+                    <option selected value="b">cytrynowa</option>
+                    <option value="e">brzoskwiniowa</option>
+                    <option value="h">waniliowa</option> 
+                    </select> 
+                </div>                  
+            </div>
+            <div class="ilosc">
+                <label>Liczba kluczy: <input type="number" name="klucze" step="1"></label>
+            </div>
+            <br></br>
+            <div class="ankieta">Twoje dane
+                <div><label>Imię i nazwisko:   <input type="text" name="imie" placeholder="(Jak masz na imię?)"></label></div>
+                <div><label>E-mail: <input type="password" name="haslo" placeholder="(Twój adres Email)"></label></div>
+                <div><label>Blik: <input type="search" name="fraza" placeholder="(6-cyfrowy kod blik)"></label></div>
+            </div>
+            <br></br>
+
+            <div class="button">
+                <input type="submit" value="Zamawiam!">
+            </div>
+            
+            </form>
+
+        </article>
+
+
+    </main>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
