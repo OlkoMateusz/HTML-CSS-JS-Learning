@@ -25,7 +25,7 @@
 
     <main>
         <article>
-            <form action="order.html" method="post" > 
+            <form action="order.html" method="post" enctype="multipart/form-data"> 
             
             <div class="row">
                 <fieldset>
@@ -91,8 +91,20 @@
                 <div><label>Data dostawy: <input type="date" name="data" min="2025-06-01" required></label><label> Preferowany czas dostawy: <input type="time" name="czas" step="1"></label></div>
             </div>
             <div class="poll">
-                <div style="margin-bottom:10px;"><label> Uwagi do zamówienia</label></div>
+                <div style="margin-bottom:10px;"><label> Uwagi do zamówienia: </label></div>
                 <textarea name="komentarz" id="komentarz" rows="4" cols="80" minlength="10" maxlength="320"></textarea>
+            </div>
+            <div class="poll">
+                <label>Prześlij zdjęcie poprzedniego samochodu: <input type="file" name="photo" accept="image/x-png,image/gif,image/jpeg" multiple></label> 
+            </div>
+            <div class="poll">
+                <label>Kolor lakieru: <input type="color" name="kolor" value="#202020"></label>
+            </div>
+            <div class="poll">
+                <label>Stopień realizacji zamówienia: <progress max="100"></progress></label>
+            </div>
+            <div class="poll">
+                <label>Stopień zatankowania: <meter min="10" max="100" value="40" low="30" high="70" optimum="75"></meter></label>
             </div>
             <br></br>
 
