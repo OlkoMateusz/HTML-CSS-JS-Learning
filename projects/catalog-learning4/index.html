@@ -79,20 +79,26 @@
                 </div>                  
             </div>
             <div class="ilosc">
-                <label>Liczba kluczy: <input type="number" name="klucze" step="1"></label>
+                <label>Liczba kluczy: <input type="number" name="klucze" step="1" required></label>
             </div>
             <br></br>
             <div class="ankieta">Twoje dane
-                <div><label>Imię i nazwisko:   <input type="text" name="imie" placeholder="(Jak masz na imię?)"></label></div>
-                <div><label>E-mail: <input type="password" name="haslo" placeholder="(Twój adres Email)"></label></div>
-                <div><label>Blik: <input type="search" name="fraza" placeholder="(6-cyfrowy kod blik)"></label></div>
+                <div><label>Imię i nazwisko:   <input type="text" name="imie" placeholder="(Jak masz na imię?)" required></label></div>
+                <div><label>E-mail: <input type="email" name="email" placeholder="(Twój adres Email)" required></label></div>
+                <div><label>Hasło: <input type="password" name="password" placeholder="(Twoje hasło)" required></label></div>
+                <div><label>Numer tel.: <input type="tel" name="phone" placeholder="789123654" required></label></div>
+                <div><label>Blik: <input type="search" name="fraza" placeholder="(6-cyfrowy kod blik)" required></label></div>
+                <div><label>Data dostawy: <input type="date" name="data" min="2025-06-01" required></label><label> Preferowany czas dostawy: <input type="time" name="czas" step="1"></label></div>
+            </div>
+            <div class="poll">
+                <div style="margin-bottom:10px;"><label> Uwagi do zamówienia</label></div>
+                <textarea name="komentarz" id="komentarz" rows="4" cols="80" minlength="10" maxlength="320"></textarea>
             </div>
             <br></br>
 
             <div class="button">
                 <input type="submit" value="Zamawiam!">
             </div>
-            
             </form>
 
         </article>

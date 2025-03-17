@@ -67,3 +67,11 @@ header
 {
     margin:10px; 
 }
+.poll
+{
+    margin:10px;
+}
+#komentarz
+{
+    resize: none;
+}
