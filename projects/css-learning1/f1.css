@@ -2,34 +2,140 @@ body
 {
     background-color: #202020;
     color:aliceblue;   
+    font-family: 'Lato' ;
 }
 #container
 {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 #logo
 {
-
+    flex-basis:100%;
+    margin-top:20px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
 }
 #menu
 {
-
+    background-color: #303030;
+    margin-top:20px;
+    padding:10px;
+    flex-basis:100%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:25px;
+    margin-bottom:10px;
+}
+.option
+{
+    flex-basis:100%;
+    font-size: 20px;
+    border-left: 2px dotted #FFFFff; 
+    opacity: 80%;
+}
+.option:first-child
+{
+    flex-basis:100%;
+    font-size: 20px; 
+    border-left:none;
+}
+.option:hover 
+{
+    cursor: pointer;
+    color:#46a592;
 }
 #topbar
 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:10px;
+    padding:10px;
+    margin-bottom:25px;
+    background-color: #128870;
 
+    width:1000px;
+}
+.topbarL
+{
+     flex-basis: 15%;
+     text-align: center;
+     border-right: 2px dotted #FFFFFF;
+}
+.topbarR
+{
+    flex-basis: 80%;
+    flex-grow:1;
+    padding:10px;
+    font-size:17px;
+}
+#linia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 620px;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Cień */
 }
 #sidebar
 {
-
+    flex-basis: 25%;
+    border-right: 2px dotted #666666;
+    padding:10px;
 }
 #content
 {
-
+    flex-basis: 63%;
+    flex-grow: 1;
+    text-align: justify;
+    padding:40px;
+    font-size:20px;
 }
+.optionL
+{
+    font-size:18px;
+    height:85px;
+    padding:10px;
+    border-top: 2px dotted #444444;
+    margin-top: auto;
+    margin-bottom:auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.optionL:first-child
+{
+    border-top: none;
+}
+.optionL:hover
+{
+    background-color: #f36742;
+    color: white;
+    cursor: pointer;
+}
+
 #footer
 {
-
+    flex-basis: 100%;
+    text-align: center;
+    padding:20px;
+    font-size:18px;
+}
+.bigtitle
+{
+    font-size: 32px;
+    font-weight: 900;
 }
