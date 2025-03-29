@@ -139,17 +139,35 @@ h1
 {
 	width: 450px;
 }
-.photo4:hover
+.photo5 img
+{
+	transition: all 0.5s ease-in-out
+}
+.photo5:hover img
 {
 	width: 450px;
+	transform: scale(1.15);
 }
 
 .photo5
 {
 	width: 450px;
+	height: 278px;
+	overflow: hidden;
+}
+.photo6 img
+{
+	transition: all 0.7s ease-in-out
+}
+.photo6:hover img
+{
+	width: 450px;
+	transform: scale(1.2) rotate(-5deg);
 }
 
 .photo6
 {
 	width: 450px;
+	height: 278px;
+	overflow: hidden;
 }
