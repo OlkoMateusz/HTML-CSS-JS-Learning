@@ -14,17 +14,17 @@ a:link
 
 a:visited 
 {
-    color: #fff;
+    color: #9ac4fc;
 }
 
 a:hover 
 {
-    color: #fff;
+    color: #17305e;
 }
 
 a:active 
 {    
-	color: #fff;
+	color: #00043a;
 }
 
 .container
@@ -67,20 +67,79 @@ h1
 .photo1
 {
 	width: 450px;
+	transition: transform 0.2s ease-in-out;
 }
-
+.photo1:hover
+{
+	transform:scale(0.9);
+}
 
 .photo2
 {
 	width: 450px;
+	transition: transform 2s ease-in-out;
 }
-
+.photo2:hover
+{
+	transform:scale(0.8) rotate(-360deg) ;
+}
 .photo3
 {
 	width: 450px;
 }
-
+.overlay
+{
+	position: relative;
+	width:450px;
+	height: 283px;
+}
+.overlay .link
+{
+	position: absolute;
+	text-align: center;
+	height:60px;
+	width:450px;
+	background-color: #111;
+	bottom:5px;
+	left:0px;
+	opacity:0;
+	transition: 0.2s ease-in-out;
+}
+.overlay:hover .link
+{
+	opacity:0.8;
+}
+.overlay:hover .link:hover
+{
+	color:rgb(185, 185, 185);
+}
+.overlay .link2
+{
+	position: absolute;
+	text-align: center;
+	height:278px;
+	width:450px;
+	background-color: #296341;
+	bottom:5px;
+	left:0px;
+	opacity:0;
+	transition: 0.2s ease-in-out;
+	text-align: center;
+	justify-content: center;
+}
+.overlay:hover .link2
+{
+	opacity:0.8;
+}
+.overlay:hover .link2:hover
+{
+	color:rgb(255, 255, 255);
+}
 .photo4
+{
+	width: 450px;
+}
+.photo4:hover
 {
 	width: 450px;
 }
