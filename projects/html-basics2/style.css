@@ -1,4 +1,20 @@
 body
 {
     background-color: #202020;
+    color: #FFFFFF
 }
+.textbox1, 
+.textbox2,
+.textbox3,
+.textbox4
+  {
+    display: none;
+  }
+
+  #op1:checked ~ .textbox1,
+  #op2:checked ~ .textbox1,
+  #op3:checked ~ .textbox1,
+  #op4:checked ~ .textbox1
+  {
+    display: block;
+  }
