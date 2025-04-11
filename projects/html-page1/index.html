@@ -4,8 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="stylesheet" href="fontello.css" type="text/css" />
+    <title>Formularz</title>
 </head>
 <body>
+    <header>Wyszukaj produkt</header>
     
+        <form>
+            <input name="search" type="search" placeholder="Nazwa produktu"><a href="#"><i class="icon-search"></i></a>
+        </form>
+        <br>
+        <fieldset>
+            <legend> Cena </legend>
+            <p>od <input name="number1" type="number" min="0" max="100000" placeholder="0.00000" step="0.00001"> do <input name="number2" type="number" min="0" max="100000" placeholder="100000" step="0.00001"> <select name="currency" required max="1"><option>Waluta</option><option value="PLN">PLN</option><option value="USD">USD</option>
+            </select></p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend> Ocena produktu</legend>
+            <input name="rating" type="radio">5.0<i class="icon-star-filled"></i><i class="icon-star-filled"></i><i class="icon-star-filled"></i><i class="icon-star-filled"></i><i class="icon-star-filled"></i><br>
+            <input name="rating" type="radio">4.0<i class="icon-star-filled"><i class="icon-star-filled"></i><i class="icon-star-filled"></i><i class="icon-star-filled"></i></i><br>
+            <input name="rating" type="radio">3.0<i class="icon-star-filled"><i class="icon-star-filled"></i><i class="icon-star-filled"></i></i><br>
+            <input name="rating" type="radio">2.0<i class="icon-star-filled"><i class="icon-star-filled"></i></i><br>
+            <input name="rating" type="radio">1.0<i class="icon-star-filled"></i><br>
+        </fieldset>
+        <br>
+        <hr>
+        <p>Kolor: <input name="color" type="color" value="#ffff00 " ></p>
+        <br>
+        <p>Data produkcji: <input name="date" type="date"></p>
+        <br>
+        <p>Szybkie ładowanie:  0W <input name="charging" type="range"> 150W</p>
+        <fieldset>
+            <legend> Inne</legend>
+            <p><input name="choose1" type="checkbox"> Dual-sim <input name="choose1" type="checkbox"> 5G <input name="choose1" type="checkbox"> Gorilla glass</p>
+        </fieldset>
+        <p><button type="submit">filtruj</button> <button type="reset"><a href="#">usuń filtry</a></button></p>
+   
+        
 </body>
 </html>
