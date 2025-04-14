@@ -1,7 +1,8 @@
 body
 {
-    background-color: #202020;
-    color:white;
+    color: #fefefe;
+    background-color:#5a4330d8;
+    font-family: Corbel;
 }
 a
 {
@@ -11,4 +12,25 @@ a
 form > a
 {
     color:white;
+}
+fieldset
+{
+    border-radius:15px;
+}
+input,
+select,
+button
+{
+    border-radius: 15px;;
+}
+i
+{
+    color:yellow;
+    -webkit-text-stroke: 1.5px black;
+}
+button,
+button > a
+{
+    background-color:rgb(66, 60, 45);
+    color:#9e7a5dd8;
 }
