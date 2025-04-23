@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="cascade_example.css">
+ <title>CSS Inheritance</title>
+    <style>
+        section {
+            border: 1px dashed red;
+            color: red;
+                }
+        p {
+            all: inherit;
+            
+        }
+    </style>
+  
+   
+</head>
+<body>
+    <section style = "color: #fff;">
+        Ten element będzie obramowany i będzie posiadał
+        czerwoną czcionkę.
+        <p>
+        Ten element nie będzie obramowany, ale będzie
+        posiadał czerwoną czcionkę.
+        </p>
+    </section>
+    <ul id="nav">
+        <li class="nav-item">Home</li>
+        <li class="nav-item">About</li>
+        <li class="nav-item">Contact</li>
+    </ul>
+    <section id="thisOne">
+        <h1>Header</h1>
+        <button>przycisk</button>
+        <p id="thatOne">
+        To jest akapit.
+        </p>
+       </section>
+       <section>
+        <h1>Header</h1>
+        <button>inny przycisk</button>
+       </section>
+       <p id="thirdOne">
+        To jest kolejny akapit.
+       </p>
+       <section>
+        <button class="btn-light">inny przycisk</button>
+        <p>
+        To jest trzeci akapit.
+        </p>
+       </section>
+       
+            <table class="row-stripes col-stripes" border="2">
+                <tr>
+                    <th>nagłówek</th>
+                    <th>nagłówek 2</th>
+                    <th>nagłówek 3</th>                  
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>wartość 2</td>
+                    <td>technologie</td> 
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>wartość 2</td>
+                    <td>internetowe</td> 
+                </tr>
+            </table>
+       
+       
+       
+</body>
+</html>

@@ -1,0 +1,83 @@
+body
+{
+    background-color: #202020;
+}
+section
+{
+    border: 5px solid orange  !important;
+    color:white;
+    background-color: black;
+    
+}
+li {
+    color: red;
+   }
+ul > li {
+    color: blue;
+   }
+.nav-item {
+    color: green;
+   }
+   #nav > .nav-item:hover {
+    color: pink;
+   }
+   #nav > li:hover {
+    color: brown;
+   }
+   li.nav-item:hover {
+    color: orange;
+   }
+
+
+
+   
+   h1 {
+    font-size: 60pt;
+   }
+   #thisOne {
+    color: brown;
+   }
+   #thisOne h1 {
+
+    color: chocolate;
+   }
+   #thatOne {
+    color: black;
+    font-size: 10pt;
+   }
+   button{
+    background-color: chocolate;
+    color: beige;
+    border: 0px;
+    border-radius: 10px;
+   }
+   #thirdOne {
+    color: black;
+    font-weight: bold;
+   }
+   .btn-light {
+    color: chocolate;
+    background-color: beige;
+    border: 0px;
+    border-radius: 10px;
+   }
+   section p {
+    color: black;
+    font-family: Corbel;
+   }
+   table.row-stripes th,
+   table.col-stripes th {
+       background-color: #666652;
+       color: white;
+   }
+   
+   /* Paski co drugi wiersz */
+   table.row-stripes tr:nth-child(even) {
+       background-color: #73BBE6;
+   }
+   
+   /* Paski co druga kolumna */
+   table.col-stripes td:nth-child(even),
+   table.col-stripes th:nth-child(even) {
+       background-color: #73BBE6;
+   }
