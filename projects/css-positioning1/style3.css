@@ -10,31 +10,34 @@ nav
     min-height: 50px;
     display:flex;
     flex-direction: row;
+    align-items: center;
 
     background-color:rgb(19, 19, 92)
 }
 #opt1
 {
     flex-basis:25%;
-    padding:25px;
+    padding:34px;
     position:relative;
 }
 #opt2
 {
     flex-basis:25%;
     padding:25px;
+    padding-left:34px;                                                                        
     position:relative;
 }
 #opt3
 {
     flex-basis:25%;
-    padding:25px;
+    padding:34px;
     position:relative;
 }
 #opt4
 {
     flex-basis:25%;
-    padding:25px;
+    list-style:none;
+    padding:34px;
     position:relative;
     cursor:pointer;
 }
@@ -77,14 +80,41 @@ nav
     border-top:2px solid #202020;
     color:white;
 }
+#opt4 ul li:first-child
+{
+    padding:10px;
+    border-top:none;
+    color:white;
+}
 #opt4 ul li:hover
 {
     background-color:rgb(11, 11, 53);
     color:rgba(240, 248, 255, 0.63);
 }
-#opt4:hover ul
+#opt4:hover > ul
 {
     display:block;
+}
+
+#opt4 ul li:hover > ul
+{
+    display:block;
+
+}
+#opt4 ul li ul
+{
+    position:absolute;
+    
+    left:100%;
+    top:0%
+}
+#opt4 ul li ul li
+{
+    background-color: rgb(1, 82, 1);
+}
+#opt4 ul li ul li:hover
+{
+    background-color: rgba(0, 128, 0, 0.356);
 }
 #opt1::after {
     content: "";
@@ -134,10 +164,38 @@ nav
     top: 50%;
     left: 1px; /* Odstęp od prawej strony */
     transform: translateY(-50%); /* Wycentrowanie strzałki w pionie */
+    padding:0;
     width: 0;
     height: 0;
     
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 10px solid white; /* Strzałka skierowana w dół */
+}
+nav ul .submenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: rgb(19, 19, 92);
+    min-width: 150px;
+}
+
+/* Pokaż submenu, gdy najedziesz na li */
+nav ul li.has-submenu:hover .submenu {
+    display: block;
+}
+
+/* Upewnij się, że pozycjonowanie działa */
+nav ul li {
+    position: relative;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: rgb(19, 19, 92);
+    min-width: 150px;
+    margin: 0;
 }
