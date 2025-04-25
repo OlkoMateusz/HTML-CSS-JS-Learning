@@ -1,0 +1,47 @@
+
+.cm {
+    width: 1cm;
+    height: 1cm;
+    background-color:blanchedalmond;
+    }
+.mms
+{
+    width:10mm;
+    height:10mm;
+    background-color: yellow;
+}
+    .inchascm {
+    width: 2.54cm;
+    height: 2.54cm;
+    background-color: aqua;
+    }
+    .inchasmm {
+    width: 25.4mm;
+    height: 25.4mm;
+    background-color: magenta;
+    }
+    .inch{
+        width: 1in;
+        height:1in;
+        background-color: blue;
+    }
+    .pxs96
+    {
+        width: 96px;
+        height:96px;
+        background-color: rgb(0, 255, 13);
+    }
+    .pts72
+    {
+        width: 72pt;
+        height:72pt;
+        mix-blend-mode: difference;
+        background-color: rgb(255, 0, 0);
+    }
+    .pcs6
+    {
+        width:6pc;
+        height:6pc;
+        background-color: rgb(255, 115, 0);
+    }
+    print-color-adjust: exact;
