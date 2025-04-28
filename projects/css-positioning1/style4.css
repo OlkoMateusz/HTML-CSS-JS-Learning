@@ -3,7 +3,7 @@ body
     background-color: #202020;
     color:white;
 }
-section
+.sec
 {
     background-color: whitesmoke;
     height:150px;
@@ -11,10 +11,123 @@ section
     border: 1px solid #000000;
     
 }
+a
+{
+    color:rgba(66, 1, 66, 0.76)
+}
 .polecenie img
 {
     display: block;
     margin-top: 15px;
+    margin-bottom:45px;
     margin-left: auto;
     margin-right: auto;
+}
+#sec1
+{
+    background-color: whitesmoke;
+    padding-top: 1px;
+    height:50px;
+    border:none;  
+    color:black; 
+}
+#sec1 ul 
+{
+    margin-right: 25px;;
+}
+#sec1 ul li
+{
+    float: left;
+    width:25%;
+}
+#sec2
+{
+    background-color: whitesmoke;
+    color:black;
+    border:none;
+    float:left;
+    width:25%;
+    min-height:75px;
+}
+#sec2 p
+{
+    font-size:20px;
+    font-weight:bold;
+    padding-left:10px;
+    
+}
+
+#sec2 li
+{
+    padding-bottom:10px;
+}
+#sec3
+{
+    background-color: whitesmoke;
+    color:black;
+    border:none;
+    float:left;
+    width:75%;
+    min-height:191px;
+    font-size:16px;
+    
+}
+#sec3 p
+{
+    font-weight: bold;
+    font-size:30px;
+}
+#sec4
+{   
+    background-color: whitesmoke;
+    padding-top: 1px;
+    height:50px;
+    border:none;  
+    color:black;
+    
+}
+#sec4 ul 
+{
+    margin-right: 25px;;
+}
+#sec4 ul li
+{
+    float: left;
+    width:25%;
+}
+#sec4 a 
+{
+    text-decoration: none;
+    color:black;
+}
+@media (max-width: 768px) {
+    #sec1 ul li,
+    #sec2,
+    #sec3,
+    #sec4 ul li {
+        float: none;
+        width: 100%;
+    }
+
+    #sec1 ul,
+    #sec4 ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    #sec3 {
+        min-height: auto;
+    }
+    #sec1 ul li,
+    #sec4 ul li {
+        float: none;
+        width: 100%;
+        padding-left:10px;
+    }
+
+    article {
+        width: 100%; 
+        padding: 0 10px; 
+        box-sizing: border-box; 
+    }
 }
